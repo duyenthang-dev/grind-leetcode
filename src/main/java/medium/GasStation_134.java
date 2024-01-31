@@ -1,7 +1,5 @@
 package medium;
 
-import java.util.Arrays;
-
 public class GasStation_134 {
     /**
      * At every position remaining = gas[i] - cost[i] <br />

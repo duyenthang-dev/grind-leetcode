@@ -3,7 +3,7 @@
 > This repo is my solutions for leetcode problems. I have created for practicing, improving my Java skill
 > and problem solving.
 
-All solution are written in Java 17. Many of them are not optimized solutions; just use them as a reference
+All solutions are written in Java 17. Many of them are not optimized solutions; just use them as a reference
 
 ## Easy problems 🔥
 

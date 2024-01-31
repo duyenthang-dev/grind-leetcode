@@ -5,7 +5,7 @@
 
 All solution are written in Java 17. Many of them are not optimized solutions; just use them as a reference
 
-## Easy problems 🔥
+## Easy problems 🔥 
 
 | #   | Title                                              | Link Problem                                                                                   | Solution                                                                                                        |
 |-----|----------------------------------------------------|------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -30,17 +30,18 @@ All solution are written in Java 17. Many of them are not optimized solutions; j
 
 ## Medium problems 💥
 
-| #   | Title                                    | Link Problem                                                                           | Solution                                                                                                        |
-|-----|------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 45  | Jump Game II                             | [Click Here](https://leetcode.com/problems/jump-game-ii)                               |                                                                                                                 |
-| 55  | Jump Game                                | [Click Here](https://leetcode.com/problems/jump-game)                                  | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
-| 80  | Remove Duplicates from Sorted Array II   | [Click Here](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)     | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
-| 122 | Best Time to Buy and Sell Stock II       | [Click Here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)         | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
-| 189 | Rotate Array                             | [Click Here](https://leetcode.com/problems/rotate-array)                               | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
-| 238 | Product of Array Except Self             | [Click Here](https://leetcode.com/problems/product-of-array-except-self)               | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
-| 274 | H-Index                                  | [Click Here](https://leetcode.com/problems/h-index)                                    | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
-| 380 | Insert Delete GetRandom O(1)             | [Click Here](https://leetcode.com/problems/insert-delete-getrandom-o1)                 | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
-| 775 | Global and Local Inversions              | [Click Here](https://leetcode.com/problems/global-and-local-inversions)                | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java) |
+| #   | Title                                  | Link Problem                                                                       | Solution                                                                                                               |
+|-----|----------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| 45  | Jump Game II                           | [Click Here](https://leetcode.com/problems/jump-game-ii)                           |                                                                                                                        |
+| 55  | Jump Game                              | [Click Here](https://leetcode.com/problems/jump-game)                              | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
+| 80  | Remove Duplicates from Sorted Array II | [Click Here](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
+| 122 | Best Time to Buy and Sell Stock II     | [Click Here](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)     | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
+| 145 | Gas Station                            | [Click Here](https://leetcode.com/problems/gas-station)                            | [Click here](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/medium/GasStation_134.java)  |
+| 189 | Rotate Array                           | [Click Here](https://leetcode.com/problems/rotate-array)                           | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
+| 238 | Product of Array Except Self           | [Click Here](https://leetcode.com/problems/product-of-array-except-self)           | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
+| 274 | H-Index                                | [Click Here](https://leetcode.com/problems/h-index)                                | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
+| 380 | Insert Delete GetRandom O(1)           | [Click Here](https://leetcode.com/problems/insert-delete-getrandom-o1)             | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
+| 775 | Global and Local Inversions            | [Click Here](https://leetcode.com/problems/global-and-local-inversions)            | [Click Here ](https://github.com/duyenthang-dev/LeetCodeSolution/blob/master/src/main/java/easy/Problem88.java)        |
 
 ## Hard problems 🙈
 Sadly, I haven't solved any problems yet. 🤡

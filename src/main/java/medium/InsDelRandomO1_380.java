@@ -10,12 +10,12 @@ import java.util.Random;
  * by that way we can know position when remove an elm without loop through the array with O(N)
  */
 
-public class Problem380 {
+public class InsDelRandomO1_380 {
     private List<Integer> lst;
     private HashMap<Integer, Integer> map;
     private final Random rnd = new Random();
 
-    public Problem380() {
+    public InsDelRandomO1_380() {
         lst = new ArrayList<>();
         map = new HashMap<>();
     }
@@ -51,7 +51,7 @@ public class Problem380 {
     }
 
     public static void main(String[] args) {
-        Problem380 obj = new Problem380();
+        InsDelRandomO1_380 obj = new InsDelRandomO1_380();
         boolean boolValue = obj.insert(1);
         boolValue = obj.remove(2);
         boolValue = obj.insert(2);

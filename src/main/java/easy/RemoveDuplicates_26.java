@@ -1,6 +1,6 @@
 package easy;
 
-public class Problem26 {
+public class RemoveDuplicates_26 {
     public static int removeDuplicates(int[] nums) {
         int k = 0;
         for (int i = 0; i < nums.length; ) {
@@ -19,6 +19,6 @@ public class Problem26 {
 
     public static void main(String[] args) {
         int[] num = new int[]{1, 1, 2};
-        System.out.println(Problem26.removeDuplicates(num));
+        System.out.println(RemoveDuplicates_26.removeDuplicates(num));
     }
 }

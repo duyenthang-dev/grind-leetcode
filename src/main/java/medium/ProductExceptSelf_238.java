@@ -4,7 +4,7 @@ import utils.PrinterUtils;
 
 import java.util.Arrays;
 
-public class Problem238 {
+public class ProductExceptSelf_238 {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] pre = new int[n];
@@ -34,6 +34,6 @@ public class Problem238 {
 
     public static void main(String[] args) {
         int[] nums = new int[]{-1,1,0,-3,3};
-        System.out.println( new PrinterUtils<Integer>().printArray(Arrays.stream(new Problem238().productExceptSelf(nums)).boxed().toArray(Integer[]::new)));
+        System.out.println( new PrinterUtils<Integer>().printArray(Arrays.stream(new ProductExceptSelf_238().productExceptSelf(nums)).boxed().toArray(Integer[]::new)));
     }
 }

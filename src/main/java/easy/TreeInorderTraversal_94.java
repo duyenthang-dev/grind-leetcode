@@ -23,7 +23,7 @@ class TreeNode {
 }
 
 
-public class Problem94 {
+public class TreeInorderTraversal_94 {
     // NLR
     private List<Integer> result;
     public void rec(TreeNode root, List<Integer> l) {

@@ -2,7 +2,7 @@ package easy;
 
 import java.util.Arrays;
 
-public class Problem14 {
+public class LongestCommonPrefix_14 {
     // ý tưởng: chỉ quan tâm chuỗi dài nhất và ngắn nhất
     // ví dụ: {"ab", "a", "d"} -> {"a", "ab", "d"}
     // ta chỉ quan tâm "a" và "d",
@@ -23,6 +23,6 @@ public class Problem14 {
 
     public static void main(String[] args) {
         String[] temp = new String[]{"ab", "a", "d"};
-        System.out.println(new Problem14().longestCommonPrefix(temp));
+        System.out.println(new LongestCommonPrefix_14().longestCommonPrefix(temp));
     }
 }

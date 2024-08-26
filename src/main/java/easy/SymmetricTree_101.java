@@ -1,7 +1,7 @@
 package easy;
 
 
-public class Problem101 {
+public class SymmetricTree_101 {
     public boolean isSymmetric(TreeNode root) {
         return check(root.left, root.right);
     }

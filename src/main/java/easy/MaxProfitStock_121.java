@@ -1,6 +1,6 @@
 package easy;
 
-public class Problem121 {
+public class MaxProfitStock_121 {
     static int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;
         int p = 0;

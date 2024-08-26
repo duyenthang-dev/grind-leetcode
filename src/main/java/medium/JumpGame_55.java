@@ -1,6 +1,6 @@
 package medium;
 
-public class Problem55 {
+public class JumpGame_55 {
     static boolean canJump(int[] nums) {
         if (nums.length == 1)
             return true;

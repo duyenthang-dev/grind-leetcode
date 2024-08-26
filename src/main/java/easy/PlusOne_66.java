@@ -4,7 +4,7 @@ package easy;
  * Ý tưởng
  */
 
-public class Problem66 {
+public class PlusOne_66 {
     public static int[] plusOne(int[] digits) {
         int i = digits.length -1;
         while (i >= 0) {
@@ -28,6 +28,6 @@ public class Problem66 {
 
     public static void main(String[] args) {
         int[] digit = new int[]{9};
-        System.out.println(Problem66.plusOne(digit));
+        System.out.println(PlusOne_66.plusOne(digit));
     }
 }

@@ -3,7 +3,7 @@ package easy;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Problem599 {
+public class MinIdxSumOfTwoLists_599 {
     public String[] findRestaurant(String[] list1, String[] list2) {
         Map<String, Integer> map = new HashMap<>();
         Map<String, Integer> map1 = new HashMap<>();
@@ -38,6 +38,6 @@ public class Problem599 {
     public static void main(String[] args) {
         String[] l1 = new String[]{"k","KFC"};
         String[] l2 = new String[]{"k","KFC"};
-        System.out.println(new Problem599().findRestaurant(l1, l2).toString());
+        System.out.println(new MinIdxSumOfTwoLists_599().findRestaurant(l1, l2).toString());
     }
 }

@@ -4,7 +4,7 @@ package easy;
 * Approach 1: hash map
 * Approach 2: Moore Voting Algorithm
 * */
-public class Problem169 {
+public class MajorityElement_169 {
     static int majorityElement(int[] nums) {
         int count = 0;
         int candidate = 0;

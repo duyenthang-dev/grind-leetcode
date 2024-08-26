@@ -1,11 +1,10 @@
 package medium;
 
-import java.lang.reflect.Array;
 /**
  * <a href="https://leetcode.com/problems/jump-game-ii/solutions/1192401/easy-solutions-w-explanation-optimizations-from-brute-force-to-dp-to-greedy-bfs/?envType=study-plan-v2&envId=top-interview-150">Solutions</a>
  */
 
-public class Problem45 {
+public class JumpGameII_45 {
     static int jump(int[] nums) {
         int[] dp = new int[nums.length];
         for (int i =0; i < nums.length; i++) {

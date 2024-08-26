@@ -1,6 +1,6 @@
 package easy;
 
-public class Problem69 {
+public class MySqrtX_69 {
     public static int mySqrt(int x) {
         if (x == 0)
             return 0;
@@ -17,6 +17,6 @@ public class Problem69 {
         return (int)i;
     }
     public static void main(String[] args) {
-        System.out.println(Problem69.mySqrt(2147483647));
+        System.out.println(MySqrtX_69.mySqrt(2147483647));
     }
 }

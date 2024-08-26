@@ -1,6 +1,6 @@
 package medium;
 
-public class Problem80 {
+public class RemoveDuplicates_80 {
     static int removeDuplicates(int[] nums) {
         int k = 0;
         int tail = nums.length - 1;

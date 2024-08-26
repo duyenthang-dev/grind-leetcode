@@ -3,7 +3,7 @@ package medium;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Problem122 {
+public class MaxProfitStock_122 {
     static int maxProfit(int[] prices) {
         List<Integer> left = new ArrayList<>();
         List<Integer> right = new ArrayList<>();

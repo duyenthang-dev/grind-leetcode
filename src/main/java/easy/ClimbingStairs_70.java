@@ -4,7 +4,7 @@ package easy;
  * Ý tưởng: số cách leo cầu thang của bậc n bằng tổng số cách leo cầu thang của bậc (n -1) và (n -2);
  */
 
-public class Problem70 {
+public class ClimbingStairs_70 {
     public static int climbStairs(int n) {
         if(n==1) return 1;
         if(n==2) return 2;
@@ -19,6 +19,6 @@ public class Problem70 {
 
     }
     public static void main(String[] args) {
-        System.out.println(Problem70.climbStairs(2));
+        System.out.println(ClimbingStairs_70.climbStairs(2));
     }
 }

@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Problem13 {
+public class RomanToInteger_13 {
     public int romanToInt(String s) {
         Map<Character, Integer> map = Stream.of(new Object[][] {
                 {'M', 1000},
@@ -58,6 +58,6 @@ public class Problem13 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Problem13().romanToInt("MCMXCIV"));
+        System.out.println(new RomanToInteger_13().romanToInt("MCMXCIV"));
     }
 }

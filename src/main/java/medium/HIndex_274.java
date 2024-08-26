@@ -3,7 +3,7 @@ package medium;
 import java.util.*;
 import java.util.stream.IntStream;
 
-public class Problem274 {
+public class HIndex_274 {
     public int hIndex(int[] citations) {
         int[] reverseSorted = IntStream.of(citations).boxed()
                 .sorted(Comparator.reverseOrder()).mapToInt(i -> i).toArray();
@@ -18,7 +18,7 @@ public class Problem274 {
     }
     public static void main(String[] args) {
         int[] citations = new int[] {0};
-        System.out.println(new Problem274().hIndex(citations));
+        System.out.println(new HIndex_274().hIndex(citations));
     }
 }
 

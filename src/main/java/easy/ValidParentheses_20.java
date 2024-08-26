@@ -12,7 +12,7 @@ import java.util.Stack;
  *      ngược lại -> false
  */
 
-public class Problem20 {
+public class ValidParentheses_20 {
     public boolean isValid(String s) {
         Stack<Character> st = new Stack<>();
         for(int i = 0; i < s.length(); i++) {
@@ -34,6 +34,6 @@ public class Problem20 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Problem20().isValid("(]{}"));
+        System.out.println(new ValidParentheses_20().isValid("(]{}"));
     }
 }

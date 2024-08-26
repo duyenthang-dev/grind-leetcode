@@ -1,6 +1,6 @@
 package easy;
 
-public class Problem27 {
+public class RemoveElement_27 {
     static int removeElement(int[] nums, int val) {
         short tail = (short) ((short) nums.length - 1);
         short k = 0;

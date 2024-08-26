@@ -1,6 +1,6 @@
 package easy;
 
-public class Problem88 {
+public class MergeSortedArray_88 {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1;
         int j = n - 1;
@@ -24,6 +24,6 @@ public class Problem88 {
         int[] nums2 = new int[]{2,5,6};
         int m = 3;
         int n = 2;
-        Problem88.merge(nums1, m, nums2, n);
+        MergeSortedArray_88.merge(nums1, m, nums2, n);
     }
 }

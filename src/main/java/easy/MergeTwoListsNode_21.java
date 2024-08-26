@@ -18,7 +18,7 @@ class ListNode {
     }
 }
 
-public class Problem21 {
+public class MergeTwoListsNode_21 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode(0, null);
         ListNode temp = dummy;

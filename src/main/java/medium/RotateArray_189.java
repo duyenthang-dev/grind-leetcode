@@ -1,6 +1,6 @@
 package medium;
 
-public class Problem189 {
+public class RotateArray_189 {
     static void rotate(int[] nums, int k) {
         if (nums.length == 1 || k == 0)
             return;

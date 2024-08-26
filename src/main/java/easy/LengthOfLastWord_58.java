@@ -1,6 +1,6 @@
 package easy;
 
-public class Problem58 {
+public class LengthOfLastWord_58 {
     static int lengthOfLastWord(String s) {
        String s1 = s.trim();
        int count = 0;

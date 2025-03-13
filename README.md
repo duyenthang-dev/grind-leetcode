@@ -14,9 +14,8 @@ This repository is my personal **LeetCode grinding hub**, where I consistently s
 
 ### 🎯 Goal  
 
-To **improve problem-solving skills**, explore optimal approaches, and build a solid foundation in **algorithms & data structures**.  
+To **improve problem-solving skills** and build a solid foundation in **algorithms & data structures**.  
 
-Let’s **grind** and **level up**! 💪🚀  
 
 ### 📊 Leetcode Profile
 [[duyenthang-dev]](https://leetcode.com/u/duyenthang-dev/)

@@ -1,6 +1,6 @@
 # Road to Grind Leetcode 🚀🔥  
 
-This repository is my personal **LeetCode grinding hub**, where I consistently solve problems to sharpen my **DSA** skills and ace technical interviews.  
+This repository is my personal **LeetCode grinding hub**, where I consistently solve problems to sharpen my **DSA** skills and ace coding interviews.  
 
 ### 📌 What’s inside?  
 

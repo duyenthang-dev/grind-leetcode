@@ -20,4 +20,4 @@ To **improve problem-solving skills** and build a solid foundation in **algorith
 ### 📊 Leetcode Profile
 [[duyenthang-dev]](https://leetcode.com/u/duyenthang-dev/)
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/duyenthang-dev?ext=heatmap)
+![Leetcode Stats](https://leetcard.jacoblin.cool/duyenthang-dev?ext=heatmap){target='_blank'}

@@ -1,7 +1,9 @@
 package lc_patterns.twopointers;
 
 // time complexity ko thực sự tốt, chỉ dùng 2 pointers, ko dùng DP 
-// ý tưởng, với mỗi 
+// ý tưởng hiện tại: với mỗi left wall, cố gắng tìm right wall tương ứng có thể đựng nước
+// -> luôn phải duyệt right wall từ cuối mảng để tìm -> O(n2)
+// tham khảo approach tốt hơn: https://leetcode.com/problems/trapping-rain-water/solutions/1374608/c-java-python-maxleft-maxright-so-far-with-picture-o-1-space-clean-concise
 public class Trap_42 {
     public int trap(int[] height) {
         int count = 0;
@@ -10,10 +12,12 @@ public class Trap_42 {
         if (height.length <= 1)
             return 0;
 
+        // từ trái sang, skip  tới khi cột liền kề thấp hơn hiện tại
         while (i < height.length - 2 && height[i] < height[i + 1]) {
             i++;
         }
 
+        // từ phải qua,  skip  tới khi cột liền kề cao hơn hiện tại
         while (right >= 1 && height[right - 1] >= height[right]) {
             right--;
         }

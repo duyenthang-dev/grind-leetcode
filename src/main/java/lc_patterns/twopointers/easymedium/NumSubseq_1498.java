@@ -1,4 +1,4 @@
-package lc_patterns.twopointers;
+package lc_patterns.twopointers.easymedium;
 
 import java.util.Arrays;
 

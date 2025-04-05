@@ -1,7 +1,4 @@
 package contest.weekly.c443;
-
-import java.util.Arrays;
-
 public class Q1 {
     public int[] minCosts(int[] cost) {
         var result = new int[cost.length];

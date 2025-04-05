@@ -1,4 +1,4 @@
-package lc_patterns.twopointers;
+package lc_patterns.twopointers.easymedium;
 
 // time complexity ko thực sự tốt, chỉ dùng 2 pointers, ko dùng DP 
 // ý tưởng hiện tại: với mỗi left wall, cố gắng tìm right wall tương ứng có thể đựng nước

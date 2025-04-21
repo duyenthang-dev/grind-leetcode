@@ -1,6 +1,8 @@
 package lc_patterns.arr_and_hashing;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
 import java.util.Map;
 
 public class ContainsDuplicate_217 {

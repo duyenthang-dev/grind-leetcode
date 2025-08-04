@@ -2,7 +2,7 @@ package lc_patterns.arr_and_hashing;
 
 public class MyHashMap_706 {
     private Node[] map;
-    private double hashThreashold = 0.75;
+    // private double hashThreashold = 0.75;
     
     public MyHashMap_706() {
         map = new Node[1000];

@@ -1,7 +1,6 @@
 package medium;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class LongestConsecutiveSequence_128 {
     public int longestConsecutive(int[] nums) {

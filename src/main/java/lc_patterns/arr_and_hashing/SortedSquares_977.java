@@ -1,34 +1,35 @@
 package lc_patterns.arr_and_hashing;
 
-import java.util.Stack;
-
+/*
+ * 2 pointer
+ * mảng đã sắp theo thứ tự bé -> lớn -> số bình phương lớn nhât có thể sẽ bắt đầu từ l or r
+ * dùng 2 pointer xét từng cặp 1
+ * cách nhận biết pattern:  
+ */
 public class SortedSquares_977 {
     public int[] sortedSquares(int[] nums) {
         int l=0, r= nums.length -1;
-        var stack = new Stack<Integer>();
+        int n = 0;
+        int i = nums.length - 1;
+        var res = new int[nums.length];
         while (l <= r) {
             int nl = nums[l] * nums[l];
             int nr = nums[r] * nums[r];
             if (nl > nr) {
-                stack.push(nl);
+                n = nl;
                 l++;
             }else if (nl <= nr) {
-                stack.push(nr);
+                n = nr;
                 r--;
             }
-        }
-
-        var res = new int[nums.length];
-        int i =0;
-        while (!stack.isEmpty()) {
-            res[i] = stack.pop();
+            res[i--] = n;
         }
         return res;
         
     }
     public static void main(String[] args) {
         var sol = new SortedSquares_977();
-        var nums = new int[]{-4,-1,0,3,10};
+        var nums = new int[]{-7,-3,2,3,11};
         var res = sol.sortedSquares(nums);
         for (int n: res) {
             System.out.println(n);

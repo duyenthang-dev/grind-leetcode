@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 
 // O(n) time complexity and O(1) space complexity
-// we easily see that number of elements have freq alway maximum 2 
+// it is easy to see that number of elements have freq alway maximum 2 
 public class MajorityElement_229 {
     public List<Integer> majorityElement(int[] nums) {
         Integer major1 = 0;
@@ -67,5 +67,3 @@ public class MajorityElement_229 {
         System.out.println(result);
     }
 }
-
-// 1 2 3 2 3 4 4 4

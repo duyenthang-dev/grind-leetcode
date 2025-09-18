@@ -1,29 +1,38 @@
 package v1.pattern.slidlingwindow;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Scanner;
+import java.util.stream.Collectors;
 
-// bài toán trở về tìm sub array có size nhỏ nhất sao cho chúng có chứa 2 value duplicate nhau
-// -> sliding window
-public class MinimumCardPickup_2260 {
-    public int minimumCardPickup(int[] cards) {
-        // sliding window shortest
-        // extend window to reach valid condition first: map.put(cards[right], map.getOrDefault(cards[right], 0) + 1);
-        // then try to shrink the window to make it as short as possible
-        // while(map.get(cards[right]) == 2) ...
+class Solution {
+    public static List<Integer> subarraySum(List<Integer> arr, int target) {
         var map = new HashMap<Integer, Integer>();
-        int left = 0;
-        int shortest = cards.length + 1;
-        for (int right =0; right < cards.length; right++) {
-            map.put(cards[right], map.getOrDefault(cards[right], 0) + 1);
-            while(map.get(cards[right]) == 2) {
-                map.put(cards[left], map.get(cards[left]) - 1);
-                shortest = Math.min(shortest, right - left + 1);
-                ++left;
+        map.put(0, 0);
+        int curSum = 0;
+        for (int i =0; i < arr.size(); i++) {
+            curSum += arr.get(i);
+            int complement = curSum - target;
+            if (map.containsKey(complement)) {
+                return List.of(map.get(complement), i + 1);
             }
+            map.put(curSum, i + 1);
         }
-        return shortest != cards.length + 1 ? shortest: -1;
+        return null;
     }
+
+    public static List<String> splitWords(String s) {
+        return s.isEmpty() ? List.of() : Arrays.asList(s.split(" "));
+    }
+
     public static void main(String[] args) {
-        
+        Scanner scanner = new Scanner(System.in);
+        List<Integer> arr = splitWords(scanner.nextLine()).stream().map(Integer::parseInt).collect(Collectors.toList());
+        int target = Integer.parseInt(scanner.nextLine());
+        scanner.close();
+        List<Integer> res = subarraySum(arr, target);
+        System.out.println(res.stream().map(String::valueOf).collect(Collectors.joining(" ")));
     }
 }
+
